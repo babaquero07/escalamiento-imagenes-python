@@ -16,8 +16,8 @@ def crear_imagen_prueba():
     # Guardar imagen de prueba
     from PIL import Image
     Image.fromarray(img).save('./images/imagen_prueba.png')
-    print("Imagen de prueba creada: 'imagen_prueba.png'")
-    return 'imagen_prueba.png'
+    print("Imagen de prueba creada: './images/imagen_prueba.png'")
+    return './images/imagen_prueba.png'
 
 def prueba_basica():
     """Prueba básica del escalamiento"""
